@@ -1,0 +1,11 @@
+$fn=100;
+
+difference()
+{
+cube([80,55,30],true);
+translate([0,0,-62]){
+rotate([110,0,0])
+{cylinder(200, d=120,center=true);}}
+translate([0,0,-25])rotate([20,0,0]){
+{cube([100,100,30],true);}}
+}
